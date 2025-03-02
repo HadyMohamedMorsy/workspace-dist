@@ -1,0 +1,1 @@
+import{Kb as r,Lb as a,dc as s,ia as o,mc as i}from"./chunk-PLVIENQC.js";import"./chunk-5KTCK5IS.js";var t=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=o({type:n,selectors:[["forbidden-access"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,m){e&1&&(r(0,"h1"),s(1,"Forbidden Access"),a())},changeDetection:0})};export{t as default};

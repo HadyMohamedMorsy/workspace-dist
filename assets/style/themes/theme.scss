@@ -3933,6 +3933,7 @@
     > tr
     > td {
     border-width: 0 0 1px 1px;
+    white-space: nowrap;
   }
 
   .p-datatable.p-datatable-gridlines:has(.p-datatable-thead):has(

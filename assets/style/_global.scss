@@ -12,7 +12,9 @@
   --scrollbar-width: 4px;
   --field-height: 40px;
   --layout-inline-padding: 1.5rem;
-  --text-blue: #f05129;
+  --fc-today-bg-color: rgb(255 255 255 / 15%);
+  --fc-event-border-color: #fff;
+  --text-color: #f05129;
   --black-color: #0d1619;
   --primary-color: #f05129;
   --secondary-color: #373739;
@@ -33,22 +35,6 @@ html {
     width: initial;
     overflow: hidden;
   }
-}
-
-::-webkit-scrollbar {
-  width: 0px !important;
-}
-
-::-webkit-scrollbar-button {
-  display: none;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-track {
-  margin: 13px 0;
 }
 
 body {

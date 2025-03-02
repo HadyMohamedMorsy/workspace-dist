@@ -10,6 +10,10 @@
   }
 }
 
+.p-datatable-gridlines .p-datatable-thead > tr > th {
+  white-space: nowrap;
+}
+
 .p-inputgroup-addon {
   height: var(--field-height);
 }

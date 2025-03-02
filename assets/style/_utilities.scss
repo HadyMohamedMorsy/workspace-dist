@@ -233,23 +233,24 @@
 .field-height {
   height: var(--field-height) !important;
 }
-.text-blue {
-  color: var(--text-blue) !important;
-}
-.text-accent {
-  color: var(--accent-color) !important;
+.text-color {
+  color: var(--text-color) !important;
 }
 
-.text-accent-darken {
-  color: var(--accent-color-darken) !important;
-}
+.table-link-title {
+  text-align: start;
+  background-color: transparent;
+  color: #4767c3;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: none;
+  outline: none;
 
-.bg-accent {
-  background-color: var(--accent-color) !important;
-}
-
-.bg-accent-darken {
-  background-color: var(--accent-color-darken) !important;
+  &:hover {
+    color: var(--text-color);
+  }
 }
 
 .bg-secondary {

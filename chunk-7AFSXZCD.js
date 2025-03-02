@@ -1,0 +1,1 @@
+import{Uc as r,_ as s,nb as e}from"./chunk-PLVIENQC.js";var n=class t{setCustomerType=e(null);setCustomerId=e(null);customerType=r(()=>this.setCustomerType());customerId=r(()=>this.setCustomerId());static \u0275fac=function(o){return new(o||t)};static \u0275prov=s({token:t,factory:t.\u0275fac,providedIn:"root"})};export{n as a};
