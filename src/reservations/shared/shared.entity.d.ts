@@ -1,0 +1,31 @@
+import { AssignGeneralOffer } from "src/assignes-global-offers/assignes-general-offer.entity";
+import { AssignesMembership } from "src/assignes-memberships/assignes-membership.entity";
+import { Company } from "src/companies/company.entity";
+import { GeneralSettings } from "src/general-settings/general-settings.entity";
+import { Individual } from "src/individual/individual.entity";
+import { ReservationStatus, TimeOfDay } from "src/shared/enum/global-enum";
+import { StudentActivity } from "src/student-activity/StudentActivity.entity";
+import { User } from "src/users/user.entity";
+export declare class Shared {
+    id: number;
+    selected_day: string;
+    start_hour: number;
+    start_minute: number;
+    start_time: TimeOfDay;
+    end_hour: number;
+    end_minute: number;
+    status: ReservationStatus;
+    end_time: TimeOfDay;
+    individual: Individual;
+    company: Company;
+    studentActivity: StudentActivity;
+    assignessMemebership: AssignesMembership;
+    settings: GeneralSettings;
+    assignGeneralOffer: AssignGeneralOffer;
+    total_price: number;
+    total_time: number;
+    note: string;
+    createdBy: User;
+    created_at: Date;
+    updated_at: Date;
+}

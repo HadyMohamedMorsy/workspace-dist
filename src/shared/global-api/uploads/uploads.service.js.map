@@ -1,0 +1,1 @@
+{"version":3,"file":"uploads.service.js","sourceRoot":"","sources":["../../../../../src/shared/global-api/uploads/uploads.service.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAA4C;AAGrC,IAAM,cAAc,GAApB,MAAM,cAAc;IACzB,gBAAgB,CAAC,IAAyB;QACxC,OAAO,EAAE,IAAI,EAAE,WAAW,IAAI,CAAC,QAAQ,EAAE,EAAE,CAAC;IAC9C,CAAC;CACF,CAAA;AAJY,wCAAc;yBAAd,cAAc;IAD1B,IAAA,mBAAU,GAAE;GACA,cAAc,CAI1B"}

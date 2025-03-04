@@ -1,0 +1,30 @@
+import { AssignGeneralOffer } from "src/assignes-global-offers/assignes-general-offer.entity";
+import { Company } from "src/companies/company.entity";
+import { Individual } from "src/individual/individual.entity";
+import { ReservationRoom } from "src/reservations/rooms/reservation-room.entity";
+import { Room } from "src/rooms/room.entity";
+import { ReservationStatus, TypeUser } from "src/shared/enum/global-enum";
+import { StudentActivity } from "src/student-activity/StudentActivity.entity";
+import { User } from "src/users/user.entity";
+export declare class Deals {
+    id: number;
+    status: ReservationStatus;
+    type_user: TypeUser;
+    hours: number;
+    start_date: Date;
+    end_date: Date;
+    price_hour: number;
+    total_price: number;
+    used: number;
+    total_used: number;
+    remaining: number;
+    room: Room;
+    individual: Individual;
+    company: Company;
+    studentActivity: StudentActivity;
+    reservationRooms: ReservationRoom;
+    assignGeneralOffer: AssignGeneralOffer;
+    createdBy: User;
+    created_at: Date;
+    updated_at: Date;
+}
