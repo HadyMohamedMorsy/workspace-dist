@@ -81,7 +81,7 @@ __decorate([
 ], CategoryController.prototype, "findRelList", null);
 __decorate([
     (0, common_1.Post)("/store"),
-    (0, clear_cache_decorator_1.ClearCacheAnotherModules)(["/api/v1/category"]),
+    (0, clear_cache_decorator_1.ClearCacheAnotherModules)(["/api/v1/lists"]),
     (0, common_1.UseInterceptors)(caching_delete_response_interceptor_1.DeleteCacheInterceptor, caching_delete_antoher_modeule_interceptor_1.ClearCacheAnotherModulesIsnterceptor),
     (0, permissions_decorator_1.Permissions)([
         {
@@ -96,7 +96,7 @@ __decorate([
 ], CategoryController.prototype, "create", null);
 __decorate([
     (0, common_1.Post)("/update"),
-    (0, clear_cache_decorator_1.ClearCacheAnotherModules)(["/api/v1/category"]),
+    (0, clear_cache_decorator_1.ClearCacheAnotherModules)(["/api/v1/lists"]),
     (0, common_1.UseInterceptors)(caching_delete_response_interceptor_1.DeleteCacheInterceptor, caching_delete_antoher_modeule_interceptor_1.ClearCacheAnotherModulesIsnterceptor),
     (0, permissions_decorator_1.Permissions)([
         {
@@ -111,7 +111,7 @@ __decorate([
 ], CategoryController.prototype, "update", null);
 __decorate([
     (0, common_1.Delete)("/delete"),
-    (0, clear_cache_decorator_1.ClearCacheAnotherModules)(["/api/v1/category"]),
+    (0, clear_cache_decorator_1.ClearCacheAnotherModules)(["/api/v1/lists"]),
     (0, common_1.UseInterceptors)(caching_delete_response_interceptor_1.DeleteCacheInterceptor, caching_delete_antoher_modeule_interceptor_1.ClearCacheAnotherModulesIsnterceptor),
     (0, permissions_decorator_1.Permissions)([
         {
