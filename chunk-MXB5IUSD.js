@@ -1,1 +1,0 @@
-import"./chunk-5KTCK5IS.js";var o=[{path:"forget-password",loadComponent:()=>import("./chunk-FM2AYIMH.js"),title:"forget password"}];var t=[{path:"login",loadComponent:()=>import("./chunk-3QE4VO2W.js"),title:"login"}];var e=[{path:"reset-password/:token",loadComponent:()=>import("./chunk-URKVLSIX.js"),title:"reset password"}];var i=[...t,...e,...o];export{i as default};
